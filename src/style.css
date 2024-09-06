@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+/* Team Section */
+.team {
+    max-width: 1440px;
+    width: 75%;
+}
+
+.team__intro {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 85px 0px 70px 0px;
+}
+
+.team__title {
+    font-size: 2.0rem;
+    font-weight: 700;
+    margin-top: 20px, 50px, 20px;
+}
+
+.team__description {
+    max-width: 400px;
+}
+
+.team__subtitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.team__text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
+
+/* Team Members */
+.team__members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items:center;
+}
+
+.member {
+    position: relative;
+    text-align: left;
+}
+
+
+.team__members .member:nth-child(2) {
+    margin-top: 100px;
+}
+
+.team__members .member:nth-child(5) {
+    margin-top: 100px;
+}
+
+.member__photo {
+    width: 70%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.member__name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.member__role {
+    font-size: 0.75rem;
+    color: #000000;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 0px;
+    right: 75px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        color: #000000;
+        background-color: #f9f9f9;
+        display: flex;
+        justify-content: center;
+    }
+
+    .team {
+        width: 95%;
+    }
+
+    .team__intro {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .team__title {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .team__members {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .member__role {
+        right: 0px;
+        font-size: 9px;
+    }
+
+    .member__photo {
+        width: 90%;
+        height: auto;
+
+    }
+
+    .team__members .member:nth-child(2) {
+        margin-top: 60px;
+    }
+
+    .team__members .member:nth-child(4) {
+        margin-top: 60px;
+    }
+
+    .team__members .member:nth-child(5) {
+        margin-top: 0px;
+    }
+
+    .team__members .member:nth-child(6) {
+        margin-top: 60px;
+    }
+}

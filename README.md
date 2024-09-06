@@ -25,6 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
+  #### Desktop
+![image](https://github.com/user-attachments/assets/5c9327b5-e5a2-43e1-9bed-80f1065590d8)
+
+  #### Mobile
+  ![image](https://github.com/user-attachments/assets/68a8b7eb-6296-4cd5-be37-666130c15f1d)
+
 ## My process
 
 ### Built with

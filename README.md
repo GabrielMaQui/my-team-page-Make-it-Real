@@ -1,4 +1,4 @@
-# Make It Real - NAME OF THE PROJECT
+# Make It Real - the my-team-page
 
 This is a solution to the my-team-page project of the Make It Real course.
 
@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 
   #### Desktop
-![image](https://github.com/user-attachments/assets/5c9327b5-e5a2-43e1-9bed-80f1065590d8)
+  ![image](https://github.com/user-attachments/assets/5c9327b5-e5a2-43e1-9bed-80f1065590d8)
 
   #### Mobile
   ![image](https://github.com/user-attachments/assets/68a8b7eb-6296-4cd5-be37-666130c15f1d)
@@ -42,38 +42,33 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While working through this project, I solidified my understanding of responsive design principles, particularly in how to handle different screen sizes using CSS Grid and media queries. I also improved my skills in implementing the BEM methodology for organizing CSS classes, which helps to maintain scalability and readability in stylesheets.
 
-To see how you can add code snippets, see below:
+Some key takeaways include:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1 class="team__title">The creative crew</h1>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.team__members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Continued development
 
-In future projects, I want to continue improving my skills with CSS Grid and perfect the use of responsive design. I also aim to refine my implementation of asynchronous JavaScript to better handle API interactions and optimize performance.
+For future projects, I want to keep focusing on enhancing my use of CSS Grid to create more complex layouts, and I aim to continue refining my approach to responsive design. Additionally, I’m looking to improve my use of asynchronous JavaScript, especially for handling API requests efficiently and optimizing page performance.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [CSS Grid Layout](https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout) - This resource helped me understand how to make my layout more responsive and flexible. I'll definitely use it again in future projects.
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [GabrielMaQui](https://github.com/GabrielMaQui)
+
+## Acknowledgments
+
+I would like to thank the instructors at Make It Real for their guidance and support throughout this project.
